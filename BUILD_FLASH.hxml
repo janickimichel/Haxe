@@ -1,0 +1,11 @@
+-main Game
+-swf Game.swf
+-swf-version 11
+-swf-header 240:240:20:0xB9EADB
+-resource audio/music.mp3@audio-musique
+-resource audio/intro.mp3@audio-intro
+-resource audio/pop.mp3@audio-bruit_1
+-resource audio/menu_select.mp3@audio-select
+-resource audio/credits.mp3@audio-credits
+-resource audio/sfx.mp3@audio-hit
+-resource audio/next.mp3@audio-next

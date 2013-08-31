@@ -1,0 +1,53 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<style type='text/css'>
+		body {
+		background-color: black; 
+		text-align: center;
+		}
+		object {
+			margin: 50px auto;
+		}
+
+		#credits {
+			text-align: center;
+			color: #aaa;
+			font-family: sans;
+			font-style: italic;
+			font-size: 1.5em;
+		}
+	</style>
+</head>
+<body>
+
+	<object id="game" name="game" width="480" height="480">
+		<param name="wmode" value="opaque">
+	    <param name="movie" value="Game.swf">
+	    <embed src="Game.swf" width="480" height="480">
+	    </embed>
+	</object>
+
+	
+    <div id='credits'>
+		Use only keyboard: Up, Down, Left, Right and Enter
+	</div>
+
+    <script type='text/javascript'>
+    	window.onload = function() {
+    		var flash = document.getElementById('game');
+    		flash.focus();
+    	};
+    </script>
+
+
+</body>
+</html>
